@@ -7,18 +7,15 @@ import utils.TestUtils;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Set;
 import java.util.SortedMap;
 
-import static org.junit.Assert.*;
-
-public class FskDataProccessorTest {
+public class FskDataProcessorTest {
 
     @Test
     public void getFskGroupByLevelFacet() {
         try {
             List<FskDto> list = TestUtils.loadFskListFromResource();
-            SortedMap<String, List<FskDto>> map = FskDataProccessor.instance.getFskGroupByLevelFacet(list);
+            SortedMap<String, List<FskDto>> map = FskDataProcessor.instance.getFskGroupByLevelFacet(list);
             Assert.assertNotNull(map);
             Assert.assertEquals("Invalid result size", 2, map.size());
 

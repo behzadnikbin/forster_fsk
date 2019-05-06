@@ -11,8 +11,8 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
-public class FskDataProccessor {
-    public static final FskDataProccessor instance = new FskDataProccessor();
+public class FskDataProcessor {
+    public static final FskDataProcessor instance = new FskDataProcessor();
 
     public SortedMap<String, List<FskDto>> getFskGroupByLevelFacet(@NonNull List<FskDto> list) {
         SortedMap<String, List<FskDto>> res = new TreeMap<>();
