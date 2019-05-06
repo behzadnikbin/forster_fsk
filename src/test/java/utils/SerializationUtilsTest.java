@@ -12,12 +12,7 @@ public class SerializationUtilsTest {
     @Test
     public void deserializeFromFile() {
         try {
-            ClassLoader classLoader = this.getClass().getClassLoader();
-            InputStream stream = classLoader.getResourceAsStream("fsk_sample_file.json");
-            List<FskDto> list = SerializationUtils.instance.deserializeFromFile(stream);
-            if (stream != null) {
-                stream.close();
-            }
+            List<FskDto> list = TestUtils.loadFskListFromResource();
             //  Check list
             Assert.assertNotNull("Deserialized list is null", list);
             Assert.assertEquals("Invalid list size", 2, list.size());
@@ -55,7 +50,7 @@ public class SerializationUtilsTest {
             Assert.assertNotNull("Null fsk_level_list_facet for item[1]", fskLevelListFacet1);
             Assert.assertEquals("Invalid fsk_level_list_facet[] size for item[1]", 2, fskLevelListFacet1.size());
             Assert.assertEquals("Invalid fsk_level_list_facet[0] for item[1]", "FSKfrei", fskLevelListFacet1.get(0));
-            Assert.assertEquals("Invalid fsk_level_list_facet[1] for item[1]", "FSK12", fskLevelListFacet1.get(1));
+            Assert.assertEquals("Invalid fsk_level_list_facet[1] for item[1]", "FSF12", fskLevelListFacet1.get(1));
         } catch (IOException e) {
             Assert.fail("Sample json file not found! " + e.toString());
         }
