@@ -1,0 +1,121 @@
+[
+  {
+    "asset_id": 3443586,
+    "userrating_average": 4,
+    "orders_buy": 0,
+    "poster_url": "http://@@STATIC_MAXDOME_URL@@/getAssetImage/objId:3443586/type:poster/width:__WIDTH__/height:__HEIGHT__/imageId:4155579.jpg",
+    "timeframe_start": "2017-08-09T22:00:00Z",
+    "production_year_max": 2012,
+    "director_list_facet": [
+      "John Cassar"
+    ],
+    "production_year_list_facet": [
+      "2012"
+    ],
+    "title": "The Kennedys",
+    "episode_number": 0,
+    "media_usage_list": [
+      "TVOD",
+      "DTO"
+    ],
+    "production_year": 2012,
+    "editorial_hint": "",
+    "timeframe_end": "2019-12-18T23:00:00Z",
+    "active_license_starttime": "2013-03-01T14:00:00Z",
+    "marking_display_list": [
+      "hd"
+    ],
+    "active_license_endtime": "2019-12-31T23:00:00Z",
+    "language_list_facet": [
+      "de",
+      "en"
+    ],
+    "production_year_min": 2012,
+    "description_short": "Die preisgekrönte und viel diskutierte Serie \"The Kennedys\" wirft einen Blick hinter die geheimen Türen des Weißen Hauses. Sie erzählt die historischen Geschichten der Jahre 1960 bis 1968, die mit der Kennedy-Ära verbunden sind.",
+    "season_number": 0,
+    "price_rent": 0.99,
+    "child_id_list": [
+      "3443582"
+    ],
+    "userrating_count_four_star": 2409,
+    "orders_subscription": 0,
+    "description_teaser": "",
+    "orders_rent": 0,
+    "fsk_level_list_facet": [
+      "FSF12"
+    ],
+    "userrating_count_one_star": 43,
+    "change_date": "2018-05-14T09:14:56Z",
+    "copyright": "Studio Hamburg",
+    "object_class": "Series",
+    "channel_list_facet": [
+      "serie"
+    ],
+    "cover_url": "http://@@STATIC_MAXDOME_URL@@/getAssetImage/objId:3443586/type:cover/width:__WIDTH__/height:__HEIGHT__/imageId:3565109.jpg",
+    "trailer_object": "{\"videoTrailerMp4List\":[]}",
+    "actor_list_facet": [
+      "Greg Kinnear",
+      "Barry Pepper",
+      "Katie Holmes",
+      "Tom Wilkinson"
+    ],
+    "userrating_count_five_star": 1365,
+    "author_list_facet": [
+      "Stephen Kronish"
+    ],
+    "videocontainer_format_list": [
+      "asf",
+      "piff"
+    ],
+    "id": "25912312",
+    "description_long": "Die preisgekrönte und viel diskutierte Serie \"The Kennedys\" wirft einen Blick hinter die geheimen Türen des Weißen Hauses: Sie handelt von Heldentaten und Misserfolgen, Loyalität und Liebe, Neid und Untreue. Sie zeigt Menschen mit großen Fähigkeiten und großen Fehlern. Und sie erzählt die historischen Geschichten der Jahre 1960 bis 1968, die mit der Kennedy-Ära verbunden sind: Bay of Pigs, die Kuba-Krise, die Bürgerrechtsbewegung, Mafia-Verbindungen.",
+    "marking_list": [
+      "seasonAllHd",
+      "hasDto",
+      "couponUsable",
+      "ov",
+      "notNew",
+      "hdPiff",
+      "notHidden",
+      "ovPiff",
+      "seasonOffline",
+      "stereo",
+      "online",
+      "hasPiff",
+      "onlinePiff",
+      "hd",
+      "containsWithoutPackage"
+    ],
+    "price_buy": 1.49,
+    "userrating_count_three_star": 2412,
+    "generation": 187,
+    "full_object": "{\"@class\":\"Series\",\"id\":3443586,\"eroticSpecifier\":0,\"green\":false,\"downloadAllowed\":false,\"seen\":false,\"remembered\":false,\"countryList\":[],\"iso2CountryList\":[],\"title\":\"The Kennedys\",\"descriptionLong\":\"Die preisgekrönte und viel diskutierte Serie \\\"The Kennedys\\\" wirft einen Blick hinter die geheimen Türen des Weißen Hauses: Sie handelt von Heldentaten und Misserfolgen, Loyalität und Liebe, Neid und Untreue. Sie zeigt Menschen mit großen Fähigkeiten und großen Fehlern. Und sie erzählt die historischen Geschichten der Jahre 1960 bis 1968, die mit der Kennedy-Ära verbunden sind: Bay of Pigs, die Kuba-Krise, die Bürgerrechtsbewegung, Mafia-Verbindungen.\",\"descriptionShort\":\"Die preisgekrönte und viel diskutierte Serie \\\"The Kennedys\\\" wirft einen Blick hinter die geheimen Türen des Weißen Hauses. Sie erzählt die historischen Geschichten der Jahre 1960 bis 1968, die mit der Kennedy-Ära verbunden sind.\",\"descriptionTeaser\":\"\",\"editorialHint\":\"\",\"productionYear\":2012,\"markingList\":[\"seasonAllHd\",\"hasDto\",\"couponUsable\",\"ov\",\"notNew\",\"hdPiff\",\"notHidden\",\"ovPiff\",\"seasonOffline\",\"stereo\",\"online\",\"hasPiff\",\"onlinePiff\",\"hd\",\"containsWithoutPackage\"],\"productPlacement\":false,\"videoContainerFormatList\":[\"asf\",\"piff\"],\"coverList\":[{\"id\":\"3565103\",\"url\":\"http://@@STATIC_MAXDOME_URL@@/getAssetImage/objId:3443586/type:coverBig/width:__WIDTH__/height:__HEIGHT__/imageId:3565103.jpg\",\"title\":\"The Kennedys\",\"usageType\":\"COVER_BIG\"},{\"id\":\"3565109\",\"url\":\"http://@@STATIC_MAXDOME_URL@@/getAssetImage/objId:3443586/type:cover/width:__WIDTH__/height:__HEIGHT__/imageId:3565109.jpg\",\"title\":\"The Kennedys\",\"usageType\":\"COVER\"},{\"id\":\"4155579\",\"url\":\"http://@@STATIC_MAXDOME_URL@@/getAssetImage/objId:3443586/type:poster/width:__WIDTH__/height:__HEIGHT__/imageId:4155579.jpg\",\"title\":\"The Kennedys\",\"usageType\":\"POSTER\"}],\"imageGalleryList\":[],\"genreList\":[{\"id\":\"pb_5\",\"value\":\"serie\",\"genreType\":\"Channelgenre\"}],\"tagList\":[{\"tagText\":\"usa\"},{\"tagText\":\"politik\"},{\"tagText\":\"kennedys\"},{\"tagText\":\"jfk\"},{\"tagText\":\"john f. kennedy\"},{\"tagText\":\"jackie kennedy\"},{\"tagText\":\"robert kennedy\"},{\"tagText\":\"kubakrise\"},{\"tagText\":\"attentat\"},{\"tagText\":\"präsident der vereinigten staaten von amerika\"},{\"tagText\":\"geschichte\"}],\"creditList\":[{\"id\":\"482514\",\"creditType\":\"actor\",\"value\":\"Barry Pepper\",\"biography\":\"\"},{\"id\":\"489343\",\"creditType\":\"actor\",\"value\":\"Greg Kinnear\",\"biography\":\"\"},{\"id\":\"493921\",\"creditType\":\"actor\",\"value\":\"Katie Holmes\",\"biography\":\"\"},{\"id\":\"505790\",\"creditType\":\"actor\",\"value\":\"Tom Wilkinson\",\"biography\":\"\"}],\"tvBroadcastList\":[],\"studioList\":[],\"copyright\":\"Studio Hamburg\",\"assetLicenseList\":[],\"mandatorPermissionList\":[],\"videoTrailerAsfList\":[],\"videoTrailerMp4List\":[],\"childIdList\":[3443582],\"statement\":\"\",\"award\":\"\",\"awardYear\":\"\",\"awardCategory\":\"\",\"linkExternal\":\"\",\"linkExternalType\":\"\",\"internalReview\":\"\",\"virtualVideoVersionList\":[]}",
+    "language_piff_list_facet": [
+      "de",
+      "en"
+    ],
+    "object_type": 3,
+    "cover_big_url": "http://@@STATIC_MAXDOME_URL@@/getAssetImage/objId:3443586/type:coverBig/width:__WIDTH__/height:__HEIGHT__/imageId:3565103.jpg",
+    "tag_list_facet": [
+      "usa",
+      "präsident der vereinigten staaten von amerika",
+      "robert kennedy",
+      "jackie kennedy",
+      "kennedys",
+      "attentat",
+      "john f. kennedy",
+      "politik",
+      "jfk",
+      "kubakrise",
+      "geschichte"
+    ],
+    "userrating_count_total": 6331,
+    "country_list": [
+      "USA"
+    ],
+    "userrating_count_two_star": 102,
+    "_version_": 1600431636752629800,
+    "erotic_specifier": 0,
+    "timestamp": "2018-05-14T09:35:47.135Z"
+  }
+]
