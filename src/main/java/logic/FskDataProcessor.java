@@ -27,6 +27,7 @@ public class FskDataProcessor {
      * @return {@link java.util.Map Map} of level facet to {@link List} of {@link FskDto} data related to the level facet.
      * It is sorted by keys
      */
+    //TODO Map key can be changed to Enum instead of String, but I don't know all the enum items and the correct order
     public SortedMap<String, List<FskDto>> getFskGroupByLevelFacet(@NonNull List<FskDto> list) {
         SortedMap<String, List<FskDto>> res = new TreeMap<>();      //  result to return
         for (FskDto fskDto : list) {
