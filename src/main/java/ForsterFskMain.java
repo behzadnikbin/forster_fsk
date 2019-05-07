@@ -1,6 +1,5 @@
 import dto.FskDto;
 import logic.FskDataProcessor;
-import lombok.extern.java.Log;
 import utils.SerializationUtils;
 
 import java.io.FileInputStream;
@@ -15,15 +14,25 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 /**
+ * The main file for processing FSK data
+ *
  * @author Behzad
  */
 public class ForsterFskMain {
 
     private static final Logger logger = Logger.getLogger(ForsterFskMain.class.getName());
 
+    /**
+     * @param args input arguments of program(optional): args[0]: input file path, args[1]: output file path
+     */
     public static void main(String[] args) {
-        final String INPUT_FILE_PATH = "assets.json";
-        final String OUTPUT_FILE_PATH = "output.json";
+        //  input and output file config
+        String INPUT_FILE_PATH = "assets.json";
+        String OUTPUT_FILE_PATH = "output.json";
+        if (args.length == 2) {
+            INPUT_FILE_PATH = args[0];
+            OUTPUT_FILE_PATH = args[1];
+        }
 
         List<FskDto> list = null;
         //  opening file
