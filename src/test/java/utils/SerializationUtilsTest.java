@@ -1,11 +1,14 @@
 package utils;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import dto.FskDto;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.util.Collections;
 import java.util.List;
+import java.util.TreeMap;
 
 public class SerializationUtilsTest {
     @Test
@@ -52,6 +55,22 @@ public class SerializationUtilsTest {
             Assert.assertEquals("Invalid fsk_level_list_facet[1] for item[1]", "FSF12", fskLevelListFacet1.get(1));
         } catch (IOException e) {
             Assert.fail("Sample json file not found! " + e.toString());
+        }
+    }
+
+    @Test
+    public void serializeToStingTest() {
+        try {
+            String str = SerializationUtils.instance.serializeToSting(new TreeMap<String, List<FskDto>>() {{
+                put("FSF12", Collections.singletonList(new FskDto(3443586L, null, "The Kennedys", 2012)));
+            }});
+            Assert.assertEquals(
+                    "Serialized string and input map does not match",
+                    "{\"FSF12\":[{\"asset_id\":3443586,\"title\":\"The Kennedys\",\"production_year\":2012}]}",
+                    str
+            );
+        } catch (JsonProcessingException e) {
+            Assert.fail("Problem serializing map to string " + e.toString());
         }
     }
 }

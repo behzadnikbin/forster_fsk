@@ -25,6 +25,7 @@ public class FskDataProcessor {
                 List<FskDto> levelFsks = res.computeIfAbsent(level, k -> new ArrayList<>());
                 levelFsks.add(fskDto);
             }
+            fskDto.setFsk_level_list_facet(null);       //  this field is not required any more
         }
         return res;
     }
