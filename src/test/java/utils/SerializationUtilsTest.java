@@ -10,6 +10,11 @@ import java.util.Collections;
 import java.util.List;
 import java.util.TreeMap;
 
+/**
+ * Test class for serialization/deserialization
+ *
+ * @author Behzad
+ */
 public class SerializationUtilsTest {
     @Test
     public void deserializeFromFile() {
@@ -66,7 +71,7 @@ public class SerializationUtilsTest {
             }});
             Assert.assertEquals(
                     "{\"FSF12\":[{\"asset_id\":3443586,\"title\":\"TheKennedys\",\"production_year\":2012}]}",
-                    str.replaceAll("\\s+", "")
+                    str.replaceAll("\\s+", "")      //  ignore whitespaces
             );
         } catch (JsonProcessingException e) {
             Assert.fail("Problem serializing map to string " + e.toString());

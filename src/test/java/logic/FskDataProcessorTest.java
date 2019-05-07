@@ -9,6 +9,11 @@ import java.io.IOException;
 import java.util.List;
 import java.util.SortedMap;
 
+/**
+ * Test class for FSK data processing
+ *
+ * @author Behzad
+ */
 public class FskDataProcessorTest {
 
     @Test
