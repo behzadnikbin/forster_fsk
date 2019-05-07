@@ -65,9 +65,8 @@ public class SerializationUtilsTest {
                 put("FSF12", Collections.singletonList(new FskDto(3443586L, null, "The Kennedys", 2012)));
             }});
             Assert.assertEquals(
-                    "Serialized string and input map does not match",
-                    "{\"FSF12\":[{\"asset_id\":3443586,\"title\":\"The Kennedys\",\"production_year\":2012}]}",
-                    str
+                    "{\"FSF12\":[{\"asset_id\":3443586,\"title\":\"TheKennedys\",\"production_year\":2012}]}",
+                    str.replaceAll("\\s+", "")
             );
         } catch (JsonProcessingException e) {
             Assert.fail("Problem serializing map to string " + e.toString());
