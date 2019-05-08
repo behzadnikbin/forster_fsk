@@ -1,6 +1,6 @@
-package utils;
+package ir.behzadnikbin.forster_fsk.utils;
 
-import dto.FskDto;
+import ir.behzadnikbin.forster_fsk.dto.FskDto;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 

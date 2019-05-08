@@ -1,4 +1,4 @@
-package dto;
+package ir.behzadnikbin.forster_fsk.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;

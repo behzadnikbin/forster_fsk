@@ -1,9 +1,9 @@
-package logic;
+package ir.behzadnikbin.forster_fsk.logic;
 
-import dto.FskDto;
+import ir.behzadnikbin.forster_fsk.dto.FskDto;
 import org.junit.Assert;
 import org.junit.Test;
-import utils.TestUtils;
+import ir.behzadnikbin.forster_fsk.utils.TestUtils;
 
 import java.io.IOException;
 import java.util.List;

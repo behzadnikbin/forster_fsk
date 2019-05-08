@@ -1,6 +1,8 @@
-import dto.FskDto;
-import logic.FskDataProcessor;
-import utils.SerializationUtils;
+package ir.behzadnikbin.forster_fsk;
+
+import ir.behzadnikbin.forster_fsk.dto.FskDto;
+import ir.behzadnikbin.forster_fsk.logic.FskDataProcessor;
+import ir.behzadnikbin.forster_fsk.utils.SerializationUtils;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

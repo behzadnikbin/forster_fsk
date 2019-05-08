@@ -1,10 +1,10 @@
-package utils;
+package ir.behzadnikbin.forster_fsk.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import dto.FskDto;
+import ir.behzadnikbin.forster_fsk.dto.FskDto;
 
 import java.io.IOException;
 import java.io.InputStream;

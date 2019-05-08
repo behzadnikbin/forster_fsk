@@ -1,7 +1,7 @@
-package utils;
+package ir.behzadnikbin.forster_fsk.utils;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import dto.FskDto;
+import ir.behzadnikbin.forster_fsk.dto.FskDto;
 import org.junit.Assert;
 import org.junit.Test;
 

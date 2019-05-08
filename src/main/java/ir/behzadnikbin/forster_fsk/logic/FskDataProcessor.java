@@ -1,6 +1,6 @@
-package logic;
+package ir.behzadnikbin.forster_fsk.logic;
 
-import dto.FskDto;
+import ir.behzadnikbin.forster_fsk.dto.FskDto;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
